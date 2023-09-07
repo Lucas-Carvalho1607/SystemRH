@@ -3,7 +3,10 @@ package Abstrata;
 import Classe.Endereco;
 
 public abstract class Pessoa {
-    protected String nome, cpf, dataNasc, ctps, matricula;
+    protected  String nome;
+    protected String cpf;
+    protected String dataNasc;
+    protected String matricula;
     Endereco endereco;
     
     public Pessoa(String nome, String cpf, String dataNasc, String matricula) {
